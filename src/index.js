@@ -6,7 +6,7 @@ import PreloadScene from './PreloadScene';
 const config = {
   parent: 'jumping-dino',
   type: Phaser.AUTO,
-  width: 1000,
+  width: 1200,
   height: 340,
   pixelArt: true,
   transparent: true,
@@ -20,6 +20,10 @@ const config = {
       debug: false
     }
   },
+  // fps: {
+  //   target: 120,
+  //   forceSetTimeOut: true
+  // },
   scene: [PreloadScene, PlayScene]
 };
 
